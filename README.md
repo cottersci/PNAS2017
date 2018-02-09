@@ -13,6 +13,10 @@ Cotter, C.R., Schüttler, H.-B., Igoshin, O.A., and Shimkets, L.J. (2017). Data-
     xanthus development. Proc. Natl. Acad. Sci. U.S.A. 114, E4592–E4601.
 ```
 
+Code for the following is currently available:
+* All code for modeling and simulation
+* Code to generate figures 1, 3, and 5
+
 ## Data Structures
 
 ### NOTICE
