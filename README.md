@@ -5,6 +5,14 @@ http://www.pnas.org/content/114/23/E4592.abstract
 While I suspect the data is compatible with many versions of MATLAB, I did
 most of the work in MATLAB_R2016b, in which I am sure the data loads.
 
+Please include the following citation with the use of this code or derivatives:
+
+```
+Cotter, C.R., Schüttler, H.-B., Igoshin, O.A., and Shimkets, L.J. (2017). Data-driven
+    modeling reveals cell behaviors controlling self-organization during Myxococcus
+    xanthus development. Proc. Natl. Acad. Sci. U.S.A. 114, E4592–E4601.
+```
+
 ## Data Structures
 
 ### NOTICE
@@ -13,7 +21,7 @@ Cell density measurements in the data structures for this paper were calculated 
 For example: AllDataTable.rho1 * 0.42 = [True cell density in experiments]
 
 ## AllDataTable
-Found in the AllDataWStopsum.mat data file
+Found in the AllDataWStopsum.mat data file (Not included in repository due to size)
 
 AllDataTable: A table combining all the run data from AllData into one structure. This was used to run the simulations and generate all figures. The resulting table of runs is temporally aligned according to the values of AllData{i}.AlignedStart and AllData{i}.AlignedStop
 
@@ -39,7 +47,7 @@ See Figure S1 of paper for a drawing of some of these variables.
 
 ```TSS (float):``` Time since the beginning of the movie (Frames [1 frame = 30 seconds])
 
-```Dn (float):``` Distance to the nearest aggregate boundary (um). A value of NaN indicates there are no aggregates. 
+```Dn (float):``` Distance to the nearest aggregate boundary (um). A value of NaN indicates there are no aggregates.
 
 ```phi (float):``` Angle between the ending point of the run and a vector pointing to the center of the neareast aggregate (radians 0 <= beta < pi/2). A value of NaN indicates there are no aggregates
 
