@@ -1,0 +1,16 @@
+#######
+# Files not ready to be added to the repository
+Code/Libraries/AggregateTracking/
+Code/Libraries/DensityEstimation/
+Code/Libraries/LAPTracker/
+Code/Libraries/TrajectoryAnalysis/
+#Code/Scripts/
+Code/util_functions/
+######
+
+*.DS_Store
+*.mat
+*.tiff
+*.jpeg
+*.png
+*.fig
